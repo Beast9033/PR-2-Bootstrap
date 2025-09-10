@@ -1,0 +1,131 @@
+.background {
+    background: radial-gradient(circle at 12% 100%, #ffe2b0f5 1%, #ffe2b0f5 5px, #0000 15%), radial-gradient(circle at 95% -15%, #da4df166 5%, #0000 30%), radial-gradient(circle at 100%, #c4f5e9b2 2%, #0000 35%);
+}
+
+.process {
+    background-color: #f0f1f3;
+}
+
+.icon {
+    background-color: #f0f1f3;
+}
+
+.service {
+    background-color: #f0f1f3;
+}
+
+.hero {
+    background: radial-gradient(circle at 12% 100%, rgba(252, 228, 188, 0.96) 1%, rgba(254, 229, 185, 0.96) 5px, rgba(0, 0, 0, 0) 15%), radial-gradient(circle at 95% -15%, rgba(234, 98, 255, 0.4) 5%, rgba(0, 0, 0, 0) 30%), radial-gradient(circle at 100% center, rgba(223, 255, 247, 0.698) 2%, rgba(0, 0, 0, 0) 35%);
+}
+
+.blog {
+    background: radial-gradient(circle at -10% 0px, rgba(218, 77, 241, 0.4) 1%, rgba(0, 0, 0, 0) 25%), radial-gradient(circle at 110% 30%, rgba(196, 245, 233, 0.698) 5%, rgba(0, 0, 0, 0) 25%);
+}
+
+.btn-primary {
+    transition: all 0.5s ease-in-out;
+}
+
+.btn-primary:hover:hover {
+    transform: scale(1.03);
+}
+
+.btn-primary {
+    background-color: #a53dff;
+    border: 1px solid #a53dff;
+}
+
+.btn-primary:hover {
+    background-color: #a53dff;
+    border: 1px solid #a53dff;
+}
+
+.bg-highlight {
+    background: linear-gradient(to top, #ffd3d3 40%, transparent 40%);
+}
+
+
+.process .card {
+    width: 300px;
+    height: 300px;
+    transition: all 0.3s ease;
+}
+
+.process .icon,
+.info .icon {
+    color: #a53dff;
+    transition: all 0.3s ease;
+}
+
+.process .card:hover .icon,
+.info:hover .icon {
+    background-color: #a53dff;
+    color: #fff;
+}
+
+.process .card:hover,
+.portfolio .card:hover,
+.blog .card:hover,
+.service-card:hover,
+.info:hover {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+}
+
+.portfolio .card,
+.service-card,
+.info {
+    transition: all 0.3s ease;
+}
+
+.portfolio .card .btn {
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.portfolio .card .btn:hover {
+    padding-right: 20px;
+    color: #a53dff;
+    border: 1px solid #a53dff !important;
+}
+
+.portfolio .card .btn:hover i,
+.blog .card {
+    transition: all 0.3s ease;
+}
+
+.portfolio .card .btn:hover i {
+    padding: 0 10px;
+}
+
+.service-card:hover {
+    border-left: 5px solid #a53dff;
+}
+
+.social-icon li {
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon li:hover {
+    background: #a53dff;
+}
+
+.social-icon li:hover a {
+    color: #fff;
+}
+
+.social-icon li a {
+    color: #a53dff;
+}
+
+.form .form-control:focus {
+    color: #a53dff;
+    border-bottom: 2px solid #a53dff;
+}
+
+.form .form-control:focus::placeholder {
+    color: #a53dff;
+}
+
+footer {
+    background-color: #101828;
+}
